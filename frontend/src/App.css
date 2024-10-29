@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.form-header{
+  margin-top: 5%;
+  margin-left: 36%;
+  width: 30%;
+  background-color: black;
+  color: aliceblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.form{
+  margin-top: 20px;
+}
+.table-show{
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.table-show th, .table-show td {
+  padding: 10px; /* Add padding to table header and data cells */
+  text-align: center; /* Center text within cells */
+  /* border: 1px solid black; Optional: add border to cells */
+}
+/* Color for even rows */
+.table-show tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray */
+}
+
+/* Color for odd rows */
+.table-show tbody tr:nth-child(odd) {
+  background-color: #91c5e7; /* White */
+}
+.table-show table {
+  width: 50%;
+  border-collapse: collapse; /* Keep it for clean structure but no visible borders */
+  border: none; /* Remove outer border of the table */
+
+}
+.button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #334e99;
+  color: white;
+  width: 80px;
+  height: 35px;
+  border: none;
+  margin-top: 10px;
+}
